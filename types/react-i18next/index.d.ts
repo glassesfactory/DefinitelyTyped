@@ -11,6 +11,7 @@ import Interpolate from "./src/interpolate";
 import loadNamespaces from "./src/loadNamespaces";
 import Trans from "./src/trans";
 import translate from "./src/translate";
+import reactI18nextModule from "./src/context";
 
 export {
     I18nextProvider,
@@ -19,7 +20,8 @@ export {
     Trans,
     translate,
     // Exports for TypeScript only
-    TranslationFunction
+    TranslationFunction,
+    reactI18nextModule
 };
 
 /**
